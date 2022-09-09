@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.rowTop {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(244, 241, 241);
+}
+
+.rowImg {
+  display: flex;
+  flex-direction: row;
+  margin: 1px 10px;
+  padding: 0 5px;
+}
+
+.rowMenuComp {
+  display: flex;
+  flex-direction: row;
+  margin: 1px 10px;
+  padding: 0 5px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.menuImg {
+  justify-content: left;
+  margin: 10px 30px;
+  padding: 15px 15px;
+}
+
+.menuRow {
+  display: flex;
+  flex-direction: row;
+  margin: 0 30px;
+  padding: 15px 15px;
+}
+
+.menuItem {
+  margin: 0 30px;
+  padding: 15px 15px;
+}
+
+.menuRowRight {
+  display: flex;
+  flex-direction: row;
+  margin: 0 30px;
+  padding: 15px 15px;
+}
+
+.menuRowItem {
+  margin: 10px 10px;
+}
+
+.PageContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 12px 15px;
+
+  background-color: rgb(244, 241, 241);
+}
+
+.bannerPageContent {
+  margin: 0 30px;
+  padding: 10px 15px;
+}
